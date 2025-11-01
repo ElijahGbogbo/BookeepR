@@ -1,9 +1,0 @@
-
-Main background: #F8FAFC
-Panel/Card background: #FFFFFF
-Text (Primary): #1E293B
-Text (Secondary): #64748B
-Primary: #2563EB
-Secondary: #14B8A6
-
-
