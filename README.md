@@ -60,8 +60,43 @@ cd BookeepR
 
 ---
 
+## 🧩 Contributing
+
+Suggestions, ideas, and feedback are welcome!
+Feel free to open an issue or submit a pull request to improve the project.
+
+If you’d like to help improve this project, please follow these steps:
+
+1. **Fork** the repository  
+2. **Create** a new branch for your feature or fix  
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Commit your changes
+   ```bash
+   git commit -m "Add a short description of your changes"
+   ```
+
+4. Push to your branch
+   ```bash
+   git push origin feature-name
+   ```
+
+5. Open a Pull Request and describe your contribution clearly
+
+   > Please make sure your code follows the project’s coding style and passes all necessary tests before submitting a PR.
+
+---
+
 ## 📄 License
 This project is licensed under the [MIT License](./LICENSE).
+
+---
+
+## 🙌 Acknowledgements
+
+Thanks for checking out my project!
+I’m documenting my full development journey — from design to deployment — to share what I learn and inspire others building their first web apps
 
 
 
