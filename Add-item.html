@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <title>Add-item</title>
+        <!-- <link rel='stylesheet' href='./main.css'> -->
+        <link rel='stylesheet' href='./add-item.css'>
+
+        <!-- Montserrat font type (For Heading text)-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+        <!-- Inter font type (For Body text)-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <main>
+            <header>
+                <div id="welcome_prompt">Hello <span id="business_name">BookeepR,</span>
+                </div>
+            </header>
+            <section id="action_sect">
+                <div id="date_time">
+                    <p>Wed, Oct 22, 2025  6:25PM</p>
+                </div>
+                <div id="balance_dashboard">
+                    <div id="view_history">
+                        <p>Transaction History</p>
+                    </div>
+                    <div id="account_summary">
+                        <div class="price_card">
+                            <p class="payment_label">Cost price</p>
+                            <p class="amount">#100,000</p>
+                        </div>
+                        <div class="price_card">
+                            <p class="payment_label">Profit</p>
+                            <p class="amount">#20,000</p>
+                        </div>
+                    </div>
+                    <div id="total_balance">
+                        <div class="price_card" id="total_card">
+                            <p class="payment_label">Total</p>
+                            <p class="amount">#120,000</p>
+                        </div>
+                        <div class="price_card placeholder_card" id="total_card">
+                            <p class="payment_label"></p>
+                            <p class="amount"></p>
+                        </div>
+                    </div>
+                </div>
+                <div id="add_item">
+                    <button id="add_item_btn" class="bookeepN_action">ADD NEW ITEM</button>
+                </div>
+                <div id="record_purchase">
+                    <button id="record_purchase_btn" class="bookeepN_action">RECORD A PURCHASE</button>
+                </div>
+            </section>
+        </main>
+        <script src='script.js'></script>
+    </body>
+</html>
+

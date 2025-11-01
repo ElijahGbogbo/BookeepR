@@ -1,0 +1,80 @@
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    color: #1E293B;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    background-color: #F8FAFC; /* #F8FAFC */
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+
+header #app_name {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #1E293B;
+}
+
+#action_sect {
+    background-color: #FFFFFF; /*  aquamarine */
+    margin: 0 10%;
+    height: 40vh;
+    border-radius: 6px;
+}
+
+#name_id, #password_id {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10%;
+    margin: 7px 0;
+    /* align-items: center;
+    justify-content: center;
+    height: 100%; */
+}
+
+#name_id #username, #password_id #password {
+    margin: 2.5px 0;
+}
+
+.submit_btn {
+    text-align: center;
+}
+
+#action_btn {
+    width: 50%;
+    height: 40px;
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #2563EB;
+    color: #FFFFFF;
+}
+
+#action_btn:hover {
+    background-color: #2DD4BF;
+}
+
+#bottom_sect {
+    height: 30vh;
+}
+
+

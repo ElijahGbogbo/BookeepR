@@ -1,0 +1,157 @@
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    color: #1E293B;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    padding: 25px 15px;
+    background-color: #F8FAFC;
+}
+
+header {
+    margin: 5px;
+}
+
+header #welcome_prompt {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #1E293B;
+    text-align: center;
+    /* padding: 0 10px; */
+}
+
+header #welcome_prompt span {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#date_time {
+    margin: 3px 3px 7px 3px;
+    background-color: #FFFFFF;
+    padding: 3px;
+    border-radius: 7px;
+    width: fit-content;
+    /* text-align: center; */
+}
+
+#date_time p {
+    margin: 0; /* 10px 5px */
+    font-size: small;
+}
+
+#balance_dashboard {
+    /* margin-top: 20px; */
+    /* gap: 15px; */
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+}
+
+#view_history {
+    /* background-color: lightcoral; */
+    display: flex;
+    justify-content: end;
+}
+
+#view_history p {
+    margin: 3px;
+    /* font-weight: 600; */
+    cursor: pointer;
+    background-color: lightgray;
+    font-size: 0.85rem;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+#account_summary, #total_balance {
+    display: flex;
+    flex-direction: row;
+}
+
+/* #account_summary {
+    background-color: lightgreen;
+}
+
+#total_balance {
+    background-color: lightyellow;
+} */
+
+.price_card {
+    background-color: #2563EB;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 7px;
+    border-radius: 7px;
+    padding: 5px;
+    color: white;
+}
+
+.price_card .payment_label {
+    margin: 0px;
+    font-size: small;
+}
+
+.price_card .amount {
+    margin: 0px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+#total_card .amount {
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+#total_balance .placeholder_card {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+#record_purchase {
+    display: flex;
+    justify-content: end;
+}
+
+.bookeepN_action {
+    border: none;
+    padding: 15px;
+    border-radius: 7px;
+    background-color: #2563EB;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+}
+
+#add_item_btn {
+    margin: 15px 7px 7px 7px;
+}
+
+#record_purchase_btn {
+    margin: 0 7px;
+}
+
+#add_item_btn:hover, #record_purchase_btn:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
